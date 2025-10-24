@@ -1,0 +1,47 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+httpx
+aiofiles
+python-dotenv
+
+# Google AI and Gemini
+google-genai
+
+# Document processing and scraping
+beautifulsoup4
+markdown
+requests
+pypdf
+docx2txt
+
+# Vector embeddings and RAG
+numpy
+chromadb
+sentence-transformers
+
+# Text processing
+nltk
+tiktoken
+
+# Logging and monitoring
+structlog
+
+# Development and testing
+pytest
+pytest-asyncio
+
+# Additional utilities
+tqdm
+
+# Optional: Google Cloud storage (for production)
+# google-cloud-storage
+# google-cloud-bigquery
+
+# Optional: Code quality tools
+# black
+# isort
+# mypy

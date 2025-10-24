@@ -1,0 +1,7 @@
+{
+  "documentation_url": "https://petstore.swagger.io/",
+  "connector_type": "auto",
+  "include_versions": true,
+  "chunk_size": 1000,
+  "chunk_overlap": 200
+}
