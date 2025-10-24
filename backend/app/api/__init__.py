@@ -2,7 +2,7 @@
 from fastapi import APIRouter
 from .ingestion import router as ingestion_router
 from .chat import router as chat_router
-from .training import router as training_router
+# from .training import router as training_router
 
 router = APIRouter()
 
@@ -18,11 +18,11 @@ router.include_router(
     tags=["Chat Interface"]
 )
 
-router.include_router(
-    training_router, 
-    prefix="/training", 
-    tags=["Model Training"]
-)
+# router.include_router(
+#     training_router, 
+#     prefix="/training", 
+#     tags=["Model Training"]
+# )
 
 @router.get("/")
 async def api_root():

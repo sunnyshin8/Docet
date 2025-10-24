@@ -8,6 +8,9 @@ httpx
 aiofiles
 python-dotenv
 
+# Fivetran SDK
+fivetran_connector_sdk
+
 # Google AI and Gemini
 google-genai
 
